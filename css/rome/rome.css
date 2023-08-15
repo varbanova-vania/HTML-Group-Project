@@ -1,0 +1,71 @@
+.rome__wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+.rome__wrapper header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.rome__wrapper header a {
+  color: #fff;
+  text-decoration: none;
+}
+.rome__wrapper main {
+  padding: 1rem;
+}
+.rome__wrapper .intro {
+  margin-bottom: 2rem;
+}
+.rome__wrapper .intro__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.rome__wrapper .intro__desc {
+  margin-bottom: 1rem;
+}
+.rome__wrapper .intro__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.rome__wrapper .content {
+  margin-bottom: 2rem;
+}
+.rome__wrapper .content__info {
+  margin-bottom: 1rem;
+}
+.rome__wrapper .dest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rome__wrapper .dest__card {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+.rome__wrapper .dest__card__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.rome__wrapper .dest__card__info {
+  margin-bottom: 1rem;
+}
+.rome__wrapper .dest__card__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.rome__wrapper footer {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
