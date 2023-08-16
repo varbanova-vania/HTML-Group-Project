@@ -59,9 +59,9 @@ main #landing .cover {
 
 /* Teddy - destinations */
 main #destinations {
-    background-color: cadetblue;
+    background-color: white;
 }
-.container {
+main #destinations .container {
     display: grid;
     grid-template-columns: 25% 25% 25%;
     grid-template-rows: 1fr 1 fr 1fr;
@@ -69,19 +69,19 @@ main #destinations {
 }
 
 .item{
-    margin-top: 5px;
+    margin: auto;
+    margin-top: 20px;
     width: 80%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
 }
 
-h3 {
+main #destinations h3 {
   text-align: center;
   padding: 10px 20px;
 }
 
-.dest_image{
+main #destinations .dest_image{
     width: 200px;
     display: block;
 }
