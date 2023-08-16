@@ -2,48 +2,74 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: Montserrat;
-    font-size: 40px;
-    line-height: 1.6;
-    color:white;
+    font-size: 30px;
+
+    color: black;
+
 }
 .venice_header {
-    background: #333333;
+    background: aquamarine;
     color: #fff;
-    padding:10px;
+    padding:5px;
     text-align: center;
 }
 .venice_header_a{
-    color: white;
+    color: black;
     font-size: 20px;
 }
 .venice_footer{
-    background: #333333;
-    color: #fff;
+    background: aquamarine;
+    color:black;
     padding:10px;
     text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.city {
+    background-color: powderblue;
+    color: black;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 60px;
+    font-size: 30px;
+    font-family: Montserrat;
+}
+.body{
+    background-color: lemonchiffon;
 }
 
-.gallery {
-     float:left;
-     padding: 15px;
-     width: 30%;
- }
+/**{*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*.box{*/
+/*    float: left;*/
+/*    width: 33.33%;*/
+/*    padding: 20px;*/
 
-.gallery:hover {
-    border: 1px solid #777;
-}
+/*}*/
 
-.gallery img {
-    width: 100%;
-    height: 450px;
-}
+/*.gallery {*/
+/*     float:left;*/
+/*    position: relative;*/
+/*     padding: 15px;*/
+/*     width: 30%;*/
 
-.desc {
-    padding: 15px;
-    text-align: center;
-}
+/* }*/
+
+/*.gallery:hover {*/
+/*    border: 1px solid #777;*/
+/*}*/
+
+/*.gallery img {*/
+/*    width: 100%;*/
+/*    height: 450px;*/
+/*}*/
+
+/*.desc {*/
+/*    padding: 15px;*/
+/*    text-align: center;*/
+/*}*/
 
 
 
