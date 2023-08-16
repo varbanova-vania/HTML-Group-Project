@@ -1,8 +1,8 @@
 .rome__wrapper {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-
+  width: 1280px;
   font-family: Montserrat;
   font-size: 16px;
   line-height: 1.6;
@@ -11,7 +11,8 @@
 .rome__wrapper header {
   background: #333;
   color: #fff;
-  padding: 1rem;
+  padding: 0.5rem 0;
+  height: 3vh;
   text-align: center;
 }
 .rome__wrapper header a {
@@ -20,52 +21,87 @@
 }
 .rome__wrapper main {
   padding: 1rem;
+  height: 94vh;
+
 }
 .rome__wrapper .intro {
+  position: relative;
+  height: 30%;
   margin-bottom: 2rem;
 }
 .rome__wrapper .intro__title {
   font-size: 2rem;
   margin-bottom: 1rem;
+  width: 40%;
+  text-align: center;
 }
 .rome__wrapper .intro__desc {
-  margin-bottom: 1rem;
+  width: 40%;
+  margin: 0 1rem 1rem;
+  text-align: left;
+  text-indent: 2rem;
 }
 .rome__wrapper .intro__img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+
 }
 .rome__wrapper .content {
-  margin-bottom: 2rem;
+  height: 20%;
+  width: 90%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  gap: 2rem;
 }
 .rome__wrapper .content__info {
   margin-bottom: 1rem;
+  width: 45%;
+}
+.rome__wrapper .content__info span {
+  font-weight: 800;
 }
 .rome__wrapper .dest {
+  height: 50%;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
+  gap: 3rem;
 }
 .rome__wrapper .dest__card {
+  text-align: center;
   width: 30%;
   margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 .rome__wrapper .dest__card__title {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+height: 10%;
 }
 .rome__wrapper .dest__card__info {
-  margin-bottom: 1rem;
+  height: 30%;
 }
 .rome__wrapper .dest__card__img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  /* max-height: 20%; */
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  /* align-self: flex-end; */
 }
 .rome__wrapper footer {
   background: #333;
   color: #fff;
   padding: 1rem;
   text-align: center;
+  height: 3vh;
 }
+
