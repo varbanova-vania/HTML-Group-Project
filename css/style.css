@@ -23,7 +23,7 @@ main #destinations {
     background-color: cadetblue;
 }
 
-footer {
+footer#footer {
     height: 10vh;
     background-color: aquamarine;
 }
