@@ -3,22 +3,58 @@
     margin: 0;
     padding: 0;
 }
-
+/* Vanya 0 navigaion */
 header#navigation {
     height: 10vh;
     background-color: aquamarine;
 }
 
+/* main */
 main {
     height: 80vh;
-    background-color: aliceblue
+    background-color: aliceblue     
 }
 main #landing, main #destinations {
     height: 50%
 }
+/* Tsvetan - landing  */
 main #landing {
+    position: relative;
     background-color: burlywood;
+    background-image: url("../images/rome/map2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+main #landing h1,
+main #landing h2 {
+    position: absolute;
+    color: white;
+}
+main #landing h1 {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: center;
+    z-index: 1;
+}
+main #landing h2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+}
+main #landing .cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.4);
+}
+
+/* Teddy - destinations */
 main #destinations {
     background-color: cadetblue;
 }
