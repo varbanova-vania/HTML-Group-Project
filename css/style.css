@@ -68,7 +68,7 @@ main #destinations .container {
     justify-content: center;
 }
 
-.item{
+div .item{
     margin: auto;
     margin-top: 20px;
     width: 80%;
@@ -76,7 +76,7 @@ main #destinations .container {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-main #destinations h3 {
+main #destinations .a {
   text-align: center;
   padding: 10px 20px;
 }
