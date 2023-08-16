@@ -58,6 +58,11 @@ main #landing .cover {
 main #destinations {
     background-color: cadetblue;
 }
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1 fr 1fr;
+}
 
 footer#footer {
     height: 10vh;
