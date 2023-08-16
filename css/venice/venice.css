@@ -1,0 +1,72 @@
+.venice {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+    font-size: 40px;
+    line-height: 1.6;
+    color:white;
+}
+.venice_header {
+    background: #333333;
+    color: #fff;
+    padding:10px;
+    text-align: center;
+}
+.venice_header_a{
+    color: white;
+    font-size: 20px;
+}
+.venice_footer{
+    background: #333333;
+    color: #fff;
+    padding:10px;
+    text-align: center;
+}
+
+.gallery {
+     float:left;
+     padding: 15px;
+     width: 30%;
+ }
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: 450px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+.button{
+    display: inline-block;
+    vertical-align: top;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1.625rem;
+    background-color: rgb(255, 71, 63);
+    background-image: linear-gradient(rgb(255, 71, 63) 0%, rgb(255, 71, 63) 100%);
+    padding: 0px 1.5rem;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.5px;
+    text-align: center;
+    transition: background-color 0.5s ease 0s;
+    color: white !important;
+    cursor: pointer !important;
+}
