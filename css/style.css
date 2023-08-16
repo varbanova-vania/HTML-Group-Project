@@ -14,8 +14,11 @@ main {
     height: 80vh;
     background-color: aliceblue     
 }
-main #landing, main #destinations {
-    height: 50%
+main #landing {
+    height: 45%
+}
+main #destinations {
+    height: 55%
 }
 /* Tsvetan - landing  */
 main #landing {
