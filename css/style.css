@@ -1,3 +1,29 @@
 * {
     font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    background-color: aquamarine;
+}
+
+main {
+    height: 80vh;
+    background-color: aliceblue
+}
+main #landing, main #destinations {
+    height: 50%
+}
+main #landing {
+    background-color: burlywood;
+}
+main #destinations {
+    background-color: cadetblue;
+}
+
+footer {
+    height: 10vh;
+    background-color: aquamarine;
 }
