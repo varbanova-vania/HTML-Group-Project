@@ -11,8 +11,7 @@ header#navigation {
 
 /* main */
 main {
-    height: 90vh;
-    background-color: aliceblue     
+    height: 90vh; 
 }
 main #landing {
     height: 40%
@@ -35,18 +34,18 @@ main #landing h2 {
     color: white;
 }
 main #landing h1 {
-    top: 20%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     z-index: 1;
 }
 main #landing h2 {
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     z-index: 1;
 }

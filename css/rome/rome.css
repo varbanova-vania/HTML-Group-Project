@@ -9,7 +9,7 @@
   color: #333;
 }
 .rome__wrapper header {
-  background: #333;
+  background: #397ba7;
   color: #fff;
   padding: 0.5rem 0;
   height: 3vh;
@@ -22,6 +22,7 @@
 .rome__wrapper main {
   padding: 1rem;
   height: 94vh;
+  background-image: linear-gradient(to bottom, #d3be77, #94c182, #4dbda4, #00b2c9, #4a9fd8);
 
 }
 .rome__wrapper .intro {
@@ -91,14 +92,11 @@ height: 10%;
   height: 30%;
 }
 .rome__wrapper .dest__card__img {
-  /* margin-bottom: 1rem; */
-  /* max-height: 20%; */
   aspect-ratio: 2/1;
   object-fit: cover;
-  /* align-self: flex-end; */
 }
 .rome__wrapper footer {
-  background: #333;
+  background: #397ba7;
   color: #fff;
   padding: 1rem;
   text-align: center;
