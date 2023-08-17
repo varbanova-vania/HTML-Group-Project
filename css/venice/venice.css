@@ -9,7 +9,7 @@
 
 }
 .venice_header {
-    background: aquamarine;
+    background: #397ba7;
     color: #fff;
     padding:5px;
     text-align: center;
@@ -19,7 +19,7 @@
     font-size: 20px;
 }
 .venice_footer{
-    background: aquamarine;
+    background: #397ba7;
     color:black;
     padding:10px;
     text-align: center;
@@ -36,7 +36,7 @@
     font-family: Montserrat;
 }
 .body{
-    background-color: lemonchiffon;
+    background-color: burlywood;
 }
 
 
