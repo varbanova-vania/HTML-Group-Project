@@ -22,7 +22,6 @@
 .rome__wrapper main {
   padding: 1rem;
   height: 94vh;
-  /* background-image: linear-gradient(to bottom, #d3be77, #8db77b, #46a993, #0095a7, #397ba7); */
   background-image: linear-gradient(to bottom, #d3be77, #94c182, #4dbda4, #00b2c9, #4a9fd8);
 
 }
