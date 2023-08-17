@@ -63,7 +63,7 @@ main #destinations {
 main #destinations .container {
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 1fr 1 fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
 
 }
