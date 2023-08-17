@@ -1,6 +1,10 @@
-
+body {
+    background-color: #397ba7;
+}
 main {
     background-color: burlywood;
+    margin-right: -15pt;
+    margin-left: -15pt;
 }
 div.polaroidImgs {
 
