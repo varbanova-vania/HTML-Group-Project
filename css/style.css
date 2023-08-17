@@ -6,7 +6,7 @@
 /* Vanya 0 navigaion */
 header#navigation {
     height: 5vh;
-    background-color: aquamarine;
+    background-color: #397ba7;
 }
 
 /* main */
@@ -59,7 +59,7 @@ main #landing .cover {
 
 /* Teddy - destinations */
 main #destinations {
-    background-color: white;
+    background-color: #d3be77;
 }
 main #destinations .container {
     display: grid;
@@ -131,5 +131,5 @@ main #destinations .dest_image{
 
 footer#footer {
     height: 5vh;
-    background-color: aquamarine;
+    background-color: #397ba7;
 }
