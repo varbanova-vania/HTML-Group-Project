@@ -65,6 +65,7 @@ main #destinations .container {
     grid-template-columns: 25% 25% 25%;
     grid-template-rows: 1fr 1 fr 1fr;
     justify-content: center;
+
 }
 
 a:link{
