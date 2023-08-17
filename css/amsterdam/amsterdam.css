@@ -20,7 +20,9 @@ a:visited{
     text-decoration: none;
     color: white;
 }
-
+body {
+    background-color: white;
+}
 .main-container {
     margin: 50px 180px 100px;
 }
