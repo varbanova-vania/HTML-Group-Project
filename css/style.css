@@ -90,7 +90,7 @@ div .item:hover{
 
 }
 
-h3 {
+.item h3 {
   background-image: linear-gradient(
     to right,
     #54b3d6,
@@ -126,6 +126,7 @@ main #destinations .a {
 main #destinations .dest_image{
     width: 200px;
     display: block;
+    aspect-ratio: 2/1;
 }
 
 footer#footer {
