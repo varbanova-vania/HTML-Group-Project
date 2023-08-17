@@ -133,7 +133,7 @@ main #destinations .dest_image{
     display: block;
     aspect-ratio: 2/1;
 }
-
+/* */
 footer#footer {
     height: 5vh;
     background-color: #397ba7;
@@ -148,8 +148,8 @@ body social button{
 
 .shareit {
     position: static;
-    /* bottom: 50px; */
-    right: 0px;
+    bottom: 20px;
+    right: 0;
 }
 
 .shareit a {
@@ -200,7 +200,6 @@ body social button{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
     cursor: pointer;
     background-color: white;
     float: right;

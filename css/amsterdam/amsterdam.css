@@ -3,7 +3,26 @@
     top: 0;
     left: 0;
 }
+header {
+  background: #397ba7;
+  font-color: #ffffff;
+  font-size: 20px;
+  padding: 0.5rem 0;
+  height: 3vh;
+  text-align: center;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
 
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: white;
+}
 .main-container {
     margin: 50px 180px 100px;
 }
@@ -33,16 +52,6 @@ img{
     object-fit: contain;
 }
 
-.centered-small {
-    position: absolute;
-    top: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    color: white;
-    object-fit: fill;
-}
-
 p {
     text-align: justify;
 }
@@ -52,42 +61,41 @@ div.column-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1 fr 1fr;
+    column-gap: 30px;
 }
 
 div.card{
-    margin: auto;
-    margin-left:0px;
+    margin-left: 0px;
     margin-right: 0px;
     text-align: center;
-    width: 90%;
+    width: 100%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 12px;
-
-
 }
+
 div.card img{
     margin: auto;
-    height: 100%;
+    height: auto;
 }
-
 div.card h3{
-    margin: 10px;
+    margin:20px 15px 15px 10px;
+
+    text-align:center;
 }
+
 div.card p{
-    margin: 10px 15px 10px 10px;
-    aspect-ratio: 2/1;
+    margin:20px;
+    text-align:justify;
 }
 
-
-
-
+/* 3-column colour container*/
 .container {
     display: grid;
     align-items:center;
     grid-template-columns: repeat(3, 1fr);
     margin: 10px auto;
-    max-width:1100px;
+
 }
 .column {
 margin:auto;
@@ -105,10 +113,11 @@ margin:auto;
    padding-bottom: 20px;
  }
 
- p {
+p {
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
+  text-align: left;
  }
 .button {
   align-items: center;
@@ -155,4 +164,13 @@ margin:auto;
     background-color: #00403F;
     border-radius: 0px 0px 12px 12px;
   }
+}
+
+footer {
+  background: #397ba7;
+  font-size: 18px;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  height: 3vh;
 }
