@@ -1,0 +1,56 @@
+body{
+    font-family: Montserrat;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+main {
+    padding: 2em;
+    background-color: #f0f0f0;
+}
+.place {
+    background-color: white;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.member {
+    background-color: white;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.place img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.place p {
+    color: #555;
+}
+.place a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
