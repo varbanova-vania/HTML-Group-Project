@@ -21,10 +21,11 @@ body.rome {
 .rome__wrapper header a {
   color: #fff;
   text-decoration: none;
+  margin: 0 1rem;
 }
 .rome__wrapper main {
   padding: 1rem;
-  height: 94vh;
+  height: 85.4vh;
   background-image: linear-gradient(to bottom, #d3be77, #94c182, #4dbda4, #00b2c9, #4a9fd8);
 
 }
