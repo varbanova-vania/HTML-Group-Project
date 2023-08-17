@@ -7,13 +7,12 @@ main {
     margin-left: -15pt;
 }
 div.polaroidImgs {
-
-    width:80%;
+    width:400px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin-bottom: 25px;
-   margin-right: 20px;
-   margin-left: 120px;
+    margin-right: 20px;
+    margin-left: 120px;
 }
 div.polaroid {
     text-align: center;
