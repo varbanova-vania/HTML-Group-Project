@@ -143,7 +143,7 @@ body social button{
 }
 
 .shareit {
-    position: fixed;
+    position: static;
     /* bottom: 50px; */
     right: 0px;
 }

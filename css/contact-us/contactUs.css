@@ -1,3 +1,7 @@
+
+main {
+    background-color: burlywood;
+}
 div.polaroidImgs {
 
     width:80%;
@@ -25,8 +29,69 @@ div.polaroid {
     display: table;
 }
 header {
-    background-color: #4CAF50;
+    background-color: #397ba7;
     color: white;
     text-align: center;
     padding: 1em;
 }
+.social_buttons{
+    margin: 0;
+}
+
+body social button{
+    height: 200vh;
+}
+
+.shareit {
+    position: static;
+    bottom: 20px;
+    right: 0;
+
+}
+
+.shareit a {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    opacity: 0.75;
+    transition: opacity 0.15s linear;
+    text-decoration: none;
+
+}
+
+.shareit a:hover {
+    opacity: 1;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+.twitter {
+    background: #55acee;
+}
+
+.linkedin {
+    background: #0077b5;
+}
+
+.reddit {
+    background: #FF4500;
+}
+
+.tumblr {
+    background: #000000;
+}
+
+.pinterest {
+    background: #cb2027;
+}
+
+footer {
+    background-color: #397ba7;
+}
+
