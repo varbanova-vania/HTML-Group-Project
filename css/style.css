@@ -1,18 +1,17 @@
 * {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     margin: 0;
     padding: 0;
 }
 /* Vanya 0 navigaion */
 header#navigation {
     height: 5vh;
-    background-color: aquamarine;
+    background-color: #397ba7;
 }
 
 /* main */
 main {
-    height: 90vh;
-    background-color: aliceblue     
+    height: 90vh; 
 }
 main #landing {
     height: 40%
@@ -59,7 +58,7 @@ main #landing .cover {
 
 /* Teddy - destinations */
 main #destinations {
-    background-color: white;
+    background-color: #d3be77;
 }
 main #destinations .container {
     display: grid;
@@ -131,5 +130,5 @@ main #destinations .dest_image{
 
 footer#footer {
     height: 5vh;
-    background-color: aquamarine;
+    background-color: #397ba7;
 }
