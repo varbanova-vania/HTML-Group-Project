@@ -8,10 +8,14 @@ header#navigation {
     height: 5vh;
     background-color: #397ba7;
 }
+body {
+    background-color: #397ba7;
+}
+
 
 /* main */
 main {
-    height: 90vh; 
+    height: 90vh;
 }
 main #landing {
     height: 40%
@@ -143,7 +147,7 @@ body social button{
 }
 
 .shareit {
-    position: fixed;
+    position: static;
     /* bottom: 50px; */
     right: 0px;
 }
