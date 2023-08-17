@@ -8,7 +8,7 @@ header#navigation {
     height: 5vh;
     background-color: #397ba7;
 }
-body {
+header.body {
     background-color: #397ba7;
 }
 
