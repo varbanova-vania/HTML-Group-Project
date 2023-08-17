@@ -1,0 +1,171 @@
+html {
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    margin: 10pt;
+
+
+}
+body {
+    background-color: #397ba7;
+}
+div.logo {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url("/images/liverpool/iStock-1217765834.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+    display: block;
+    position: static;
+    margin-top: 20px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+div .title {
+    margin-top: 157pt;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1pt;
+    text-shadow: 0 4px 8px rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+
+div .message {
+    font-size: 1.5em;
+    font-style: italic;
+    color: white;
+    object-position: left;
+
+}
+
+body .image-container {
+    text-align: center;
+}
+
+img .welcome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-position: right;
+}
+div.welcome, div.attractions, div.bottom {
+    margin: 30pt 30pt;
+
+}
+div.attractions {
+    text-align: center;
+}
+
+
+body .container {
+    padding: 10pt;
+    background-color: ivory;
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+div.polaroidImgs {
+    margin: auto;
+    width:80%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+div.polaroid {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.columns {
+
+    display: grid;
+    float: left;
+    padding: 5px;
+    width: 45%;
+}
+
+.rows::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+footer#footer {
+    height: 5vh;
+    background-color: #397ba7;
+}
+div.bugbusters {
+
+    text-align: left;
+    margin-top: 5pt;
+}
+p.bottom {
+    margin-top: 10pt;
+    margin-bottom: 20pt;
+}
+div.bottom {
+    padding: 10pt;
+    margin: 10pt;
+}
+div.image-container {
+    font-style: italic;
+    padding: 20pt;
+}
+.social_buttons{
+    margin: 0;
+}
+
+body social button{
+    height: 200vh;
+}
+
+.shareit {
+    position: static;
+    bottom: 20px;
+    right: 0px;
+
+}
+
+.shareit a {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    opacity: 0.75;
+    transition: opacity 0.15s linear;
+    text-decoration: none;
+}
+
+.shareit a:hover {
+    opacity: 1;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+.twitter {
+    background: #55acee;
+}
+
+.linkedin {
+    background: #0077b5;
+}
+
+.reddit {
+    background: #FF4500;
+}
+
+.tumblr {
+    background: #000000;
+}
+
+.pinterest {
+    background: #cb2027;
+}
